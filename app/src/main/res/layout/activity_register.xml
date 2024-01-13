@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bgatas">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrasi Akun"
+        android:textSize="30dp"
+        android:layout_marginLeft="110sp"
+        android:textColor="@color/kuning"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftarkan Akunmu Sekarang"
+        android:textSize="20dp"
+        android:layout_marginLeft="80sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="40sp"
+        android:text="  Email"
+        android:textColor="@color/white">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pastikan email yang kamu daftarkan adalah valid"
+        android:textSize="10dp"
+        android:layout_marginLeft="40sp"
+        android:textColor="@color/white"
+        >
+
+    </TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="40sp"
+        android:text="  Nama Lengkap"
+        android:textColor="@color/white">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="40sp"
+        android:text="  No Telepon"
+        android:textColor="@color/white">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="40sp"
+        android:text="  Password"
+        android:textColor="@color/white">
+
+    </EditText>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki Laki"
+            android:layout_marginHorizontal="60dp"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan"
+            android:layout_marginHorizontal="40dp"
+            android:textColor="@color/white">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonmsk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20dp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/btn_msk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah Punya Akun? Masuk"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="110sp"
+        >
+
+    </TextView>
+
+
+
+
+
+
+
+</LinearLayout>

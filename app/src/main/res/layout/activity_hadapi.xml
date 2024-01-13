@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbbeyRoad"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bgatas">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:layout_marginLeft="360sp"
+            android:layout_marginTop="10dp">
+
+        </ImageView>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80sp">
+
+        </RatingBar>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="4dp"
+                android:layout_marginHorizontal="55sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/band1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/dewa"
+                        android:scaleType="centerCrop"
+                        >
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="H A D A P I     D E N G A N     S E N Y U M A N"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="50sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lagu populer Dewa 19 yang mengandung makna religius berikutnya berjudul 'Hadapi dengan Senyuman'. Makna lagu tersebut menjelaskan bahwa setiap masalah dalam hidup dapat diatasi dengan senyuman keikhlasan.
+Dewa 19 adalah salah satu grup musik rock paling ikonik dan berpengaruh di Indonesia. Mereka dibentuk pada tahun 1986 di Surabaya, Jawa Timur. Dewa 19 telah mengalami beberapa pergantian personel sepanjang karier mereka, tetapi anggota yang paling sering diidentifikasi dengan band ini adalah Ahmad Dhani (keyboard, vokal), Andra Junaidi (gitar), Elfonnda ,Mekel (vokal), Yuke Sampurna (bass), dan Agung Yudha (drum).
+Dewa 19 dikenal karena kombinasi melodi yang indah, lirik yang mendalam, dan eksperimen musikal mereka. Gaya musik mereka melibatkan unsur-unsur rock, pop, dan ballad. Band ini meraih popularitas besar pada tahun 1990-an dan 2000-an, dengan serangkaian hits seperti Kangen,Separuh Nafas,Pupus, dan Cinta Kan Membawamu Kembali. Salah satu album paling terkenal Dewa 19 adalah Bintang Lima (2000) yang mencapai kesuksesan komersial yang besar. Setelah sejumlah pergantian personel dan perubahan dinamika di dalam band, Dewa 19 mengalami perubahan besar pada tahun 2011 ketika Once Mekel keluar dari band. Ahmad Dhani kemudian membentuk proyek baru dengan nama Dewa."
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

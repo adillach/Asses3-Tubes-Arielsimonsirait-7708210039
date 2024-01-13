@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bgatas">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:textSize="30dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/kuning"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk dengan No.Tlp dan password yang telah kamu buat disaat registrasi"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+    
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="40sp"
+        android:text="  Email / No Telepon"
+        android:textColor="@color/white">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="40sp"
+        android:text="  Password"
+        android:textColor="@color/white">
+
+    </EditText>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ingat Saya"
+        android:textColor="@color/white"
+        android:layout_marginLeft="40sp">
+
+    </CheckBox>
+
+    <Button
+        android:id="@+id/btnmsk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20dp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/btnregist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum Punya Akun? Buat Akun"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="110sp"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+
+
+
+
+</LinearLayout>

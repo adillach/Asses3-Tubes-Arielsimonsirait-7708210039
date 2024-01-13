@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoarding"
+    android:background="@color/bg">
+
+    <ImageView
+        android:id="@+id/bgatas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bgatas">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/band"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/band"
+        android:layout_below="@id/bgatas"
+        android:layout_marginTop="50sp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/colormusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COLOR MUSIC"
+        android:layout_below="@id/band"
+        android:textSize="30dp"
+        android:textColor="@color/kuning"
+        android:layout_marginLeft="110sp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/penjeasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     COLOR MUSIC memberikan seputar informasi band 90an dari berbagai negara."
+        android:layout_below="@id/colormusic"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnlnjt"
+        android:layout_below="@id/penjeasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20dp">
+
+
+    </Button>
+
+
+</RelativeLayout>

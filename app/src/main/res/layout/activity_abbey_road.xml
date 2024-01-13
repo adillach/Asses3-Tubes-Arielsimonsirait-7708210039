@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbbeyRoad"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bgatas">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:layout_marginLeft="360sp"
+            android:layout_marginTop="10dp">
+
+        </ImageView>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80sp">
+
+        </RatingBar>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="4dp"
+                android:layout_marginHorizontal="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/band1"
+                        android:layout_width="match_parent"
+                        android:layout_height="280sp"
+                        android:src="@drawable/beatles"
+                        android:scaleType="centerCrop"
+                        >
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A B B E Y     R O A D"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="27sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Beatles"
+                android:textSize="20dp"
+                android:layout_marginTop="150sp"
+                android:textColor="@color/white">
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abbey Road adalah album studio ke-11 yang dirilis oleh band rock asal Inggris The Beatles. Ini adalah album terakhir yang direkam mereka, meskipun Let It Be adalah album terakhir yang dirilis sebelum pembubaran band pada tahun 1970. Pembuatan Abbey Road mulai pada April 1969, dan album ini dirilis pada 26 September 1969 di Inggris, dan 1 Oktober 1969 di Amerika Serikat.
+Album ini dirilis di tengah ketegangan dalam band. Meskipun sukses secara komersial, dan menerima ulasan yang beragam dari para kritikus musik yang menemukan keaslian musik dan mengkritik efek buatan produksinya. Sejak penerimaan awal, album ini telah dilihat oleh banyak kritikus sebagai karya terbesar The Beatles dan oleh beberapa publikasi diberi peringkat sebagai salah satu album terbesar sepanjang masa. Abbey Road tetap menjadi album terlaris mereka."
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
